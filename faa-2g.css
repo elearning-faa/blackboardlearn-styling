@@ -1,0 +1,1251 @@
+@charset "utf-8";
+/* CSS Document */
+<!--
+body {
+   padding: 0px;
+   margin: 0px;
+   }
+/*** FIX STYLING ***/
+#courseMenuPalette div.navPaletteContent ul li a span {
+	color: rgb(0, 51, 102);
+}
+div.path {
+    margin-bottom: -20px;
+}
+div.treeContainer ul.tree li a, ul.tree li a {
+	color: rgb(18, 143, 168);
+}
+.navPaletteContent ul li h4 a {
+	color: rgb(18, 143, 168);
+}
+.vtbegenerated li {
+    list-style-position: outside;
+}
+
+ /* bluebox*/
+
+#bluebox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#0099cc;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#bluebox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:right;
+	padding: 0 15px  0 0;
+	letter-spacing: 0.05em;
+	}
+	#bluebox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#bluebox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+
+ /* blue-rectangle */
+
+#blue-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#0099cc;
+	}
+	#blue-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+
+ /* teelbox*/
+
+#tealbox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#336666;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#tealbox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:right;
+	padding: 0 15px  0 0;
+	letter-spacing: 0.05em;
+	}
+	#tealbox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+		}
+	#tealbox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+		}
+ /* teal-rectangle */
+
+#teal-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#336666;
+	}
+	#teal-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+
+ /* navybox*/
+
+#navybox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#001526;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#navybox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 15px;
+	letter-spacing: 0.05em;
+	}
+	#navybox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#navybox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+
+ /* navy-rectangle */
+
+#navy-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#001526;
+	}
+	#navy-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+ /* greybox*/
+
+#greybox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#333;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#greybox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 10px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 10px;
+	letter-spacing: 0.05em;
+	}
+	#greybox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#greybox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+ /* grey-rectangle */
+
+#grey-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#333;
+	}
+	#grey-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+ /* faagreybox*/
+#faagreybox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#646d76;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#faagreybox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 10px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 10px;
+	letter-spacing: 0.05em;
+	}
+	#faagreybox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#faagreybox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+ /* faagrey-rectangle */
+
+#faagrey-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#646d76;
+	}
+	#faagrey-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+ /* blackbox*/
+#blackbox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#000;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#blackbox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 10px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 10px;
+	letter-spacing: 0.05em;
+	}
+	#blackbox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#blackbox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+ /* black-rectangle */
+
+#black-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#000;
+	}
+	#black-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+ /* whitebox*/
+#whitebox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#FFF;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#whitebox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 10px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 10px;
+	letter-spacing: 0.05em;
+	}
+	#whitebox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#whitebox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+ /* white-rectangle */
+
+#white-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#FFF;
+	}
+	#white-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+
+ /* orangebox*/
+
+#orangebox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#cb6915;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#orangebox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 15px;
+	letter-spacing: 0.05em;
+	}
+	#orangebox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#orangebox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+
+ /* orange-rectangle */
+
+#orange-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#cb6915;
+	}
+	#orange-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+ /* royalbox*/
+
+#royalbox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#163248;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#royalbox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 15px;
+	letter-spacing: 0.05em;
+	}
+	#royalbox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#royalbox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+
+ /* royal-rectangle */
+
+#royal-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#163248;
+	}
+	#royal-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+ /* sagegreenbox*/
+
+#sagegreenbox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#939978;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#sagegreenbox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 15px;
+	letter-spacing: 0.05em;
+	}
+	#sagegreenbox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#sagegreenbox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+
+ /* sagegreen-rectangle */
+
+#sagegreen-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#939978;
+	}
+	#sagegreen-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+
+ /* sedacgreenbox*/
+
+#sedacgreenbox {
+	width: 165px;
+	height: 190px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#717f4e;
+	-webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow:    3px 4px 10px rgba(50, 50, 50, 0.68);
+	box-shadow:         3px 4px 10px rgba(50, 50, 50, 0.68);
+	}
+	#sedacgreenbox p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.8em;
+	color:#FFFFFF;
+	line-height: 1.4em;
+	margin: 10px 15px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align:left;
+	padding: 0 0  0 15px;
+	letter-spacing: 0.05em;
+	}
+	#sedacreenbox p a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-style:normal;
+	}
+	#sedacgreenbox p a:hover {
+	color: #FFFFFF;
+	text-shadow: #D3D3D3 0.1em 0.1em 0.2em;
+	}
+
+ /* sedacgreen-rectangle */
+
+#sedacgreen-rectangle {
+	width: 300px;
+	height: 125px;
+	top:13px;
+	right:40px;
+	position:absolute;
+	display: table;
+	background-color:#717f4e;
+	}
+	#sedacgreen-rectangle p {
+	font-family: Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 1.5em;
+	color:#FFFFFF;
+	line-height: 1.3em;
+	margin: 10px 3px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 15px;
+	letter-spacing: 0.03em;
+		}
+
+ /* banner */
+#faa-banner {
+   margin: 0px;
+   clear:both;
+   overflow:hidden;
+   min-width:768px;
+   }
+
+   #faa-banner p.links {
+	font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+	font-size:0.9em;
+	color:#808080;
+	text-align:left;
+	margin-top:0px ;
+	margin-left: 28px;
+	padding-top: 8px;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	}
+
+	#faa-banner p.links a {
+	color:#808080;
+	text-decoration:none;
+	font-style:normal;
+		}
+	#faa-banner p.links a:hover {
+	color:#A9A9A9;
+		}
+
+	#faa-banner img.imark {
+	float: left; margin: 4px 4px; padding: 0;
+		}
+	#faa-banner img {
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0;
+		}
+	#faa-banner img.right {
+	float: right;
+	margin: 0 0 0 0;
+	padding: 0;
+		}
+
+.wrapper {
+   width: 100%;
+   float: left;
+   margin: 0 auto;
+   position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+   clear:both;
+   overflow:hidden; /* This chops off any overhanging divs */
+   min-width: 768px;
+   }
+.banner-links {
+	background-color: #CCC;
+	height: 30px
+	}
+.banner-main {
+	background-color: #000;
+	height: 150px
+	}
+.banner-main-white {
+	background-color: #fff;
+	border: 1px solid #CCC;
+	height: 150px
+	}
+.banner-main-white-noline {
+	background-color: #fff;
+	height: 150px
+	}
+.banner-white {
+	background-color: #FFF;
+	height: 25px
+	}
+.banner-grey {
+	border-width: 15px;
+	border-color: #646d76;
+	border-style: solid hidden hidden hidden;
+	height: 10px
+	}
+
+ /* overview (after banner)*/
+#faa-overview {
+		width: 99.8%;
+		border: 1px solid #000;
+		margin: 0 auto 15px;
+   		position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+   		clear:both;
+   		overflow:hidden;		/* This chops off any overhanging divs */
+   }
+   #faa-overview h3.title {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, 	sans-serif;
+	font-size: 1.6em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.5em;
+	text-align: left;
+	color: #000;
+	margin-left: 0;
+	margin-bottom: 5px;
+		}
+	#faa-overview h3.subtitle {
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, sans-serif;
+	font-size: 1.4em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1em;
+	text-align: left;
+	color: #000;
+	margin-top: 15px;
+	margin-bottom: 25px;
+		}
+	#faa-overview h3 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", sans-serif;
+	font-size: 1.4em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 15px;
+	margin-bottom: 25px;
+		}
+	#faa-overview h4 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", sans-serif;
+	font-size: 1.1em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 15px;
+	margin-bottom: 25px;
+		}
+	#faa-overview p {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", sans-serif;
+	font-size: 1em;
+	color:#333;
+	line-height: 1.3em;
+	margin-left: 0;
+	text-align:justify;
+	padding: 0 0  0.6125em 0;
+		}
+	#faa-overview p.credit {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", 	sans-serif;
+	font-size: 0.8em;
+	color:#333;
+	line-height: 1.3em;
+	margin-left: 0;
+	text-align:justify;
+	padding: 0 0  0.6125em 0;
+		}
+	#faa-overview li {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 		"Trebuchet MS", sans-serif;
+ 	font-size: 1em;
+	color:#000;
+	line-height: 1.3em;
+	max-width: 95%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	}
+	#faa-overview li li {font-size: 1em; margin-left:-35px;} /*Fixes font-size issues with 2g*/
+	#faa-overview ul {list-style-position:outside;
+	}
+	#faa-overview ul, ol { margin: 0 0 1.625em 0;
+	}
+	#faa-overview li ul, li ol  { margin:0 1.625em;
+	}
+	#faa-overview a { color:rgb(18, 143, 168); text-decoration:none; }
+	#faa-overview a:hover { text-decoration: underline; }
+	#faa-overview .colmain {
+        margin:0px 15px;
+		padding: 0 0  10px 0;
+   		}
+	#faa-overview img {
+	float: left;
+	margin: 5px 10px 5px 5px;
+	padding: 0;
+		}
+
+ /* body (after overview)*/
+#faa-content {
+   width: 100%;
+   float: left;
+   margin: 6px auto 15px;
+   position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+   clear:both;
+   overflow:hidden;		/* This chops off any overhanging divs */
+   }
+   #faa-content h3 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", sans-serif;
+	font-size: 1.4em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 0 11px;
+		}
+	#faa-content h4 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", sans-serif;
+	font-size: 1.1em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0 11px;
+	clear:both;
+		}
+	#faa-content h5 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", sans-serif;
+	font-size: 1em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0 11px;
+		}
+	#faa-content p {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", 	sans-serif;
+	font-size: 1em;
+	color:#333;
+	line-height: 1.3em;
+	margin-left: 0;
+	text-align:justify;
+	padding: 0 11px 0.6125em 11px;
+		}
+	#faa-content p.credit {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 	"Trebuchet MS", 	sans-serif;
+	font-size: 0.8em;
+	color:#333;
+	line-height: 1.3em;
+	margin-left: 0;
+	text-align:justify;
+	padding: 0 11px 0.6125em 11px;
+		}
+	#faa-content li {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", 		"Trebuchet MS", sans-serif;
+ 	font-size: 1em;
+	color:#000;
+	line-height: 1.3em;
+	max-width: 95%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	}
+	#faa-content li li {font-size: 1em; margin-left:-35px;} /*Fixes font-size issues with 2g*/
+	#faa-content ul {list-style-position:outside; clear:both;
+	}
+	#faa-content ul, ol { margin: 0 0 1.625em 0;
+	}
+	#faa-content li ul, li ol  { margin:0 1.625em;
+	}
+	#faa-content a { color:rgb(18, 143, 168); text-decoration:none; }
+	#faa-content a:hover { text-decoration: underline; }
+	#faa-content hr  {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 100%;
+	}
+	#faa-content img {
+	float: left;
+	margin: 5px 10px 5px 5px;
+	padding: 0;
+		}
+ /* 2 column layout */
+.col1of2 {
+   position: relative;
+   float: left;
+   left: 0.50%;
+   width: 49.5%;
+
+}
+.col2of2 {
+   position: relative;
+   float: right;
+   right: 0.50%;
+   width: 49.5%;
+}
+ /* 2 column layout (narrow)*/
+.col1of2na {
+   position: relative;
+   float: left;
+   left: 0.50%;
+   width: 48.5%;
+
+}
+.col2of2na {
+   position: relative;
+   float: right;
+   right: 0.50%;
+   width: 48.5%;
+}
+ /* 2 column layout Left liquid Right 200px*/
+.wrapleft{
+   float: left;
+   width: 99%;
+}
+.leftliquid{
+   margin-right: 210px;
+}
+.right200{
+   float: right;
+   width: 200px;
+   margin-left: -200px;
+}
+ /* 1 column layout */
+.col1of1 {
+   width: 99%;
+   position: relative;
+   float: left;
+   left: 0.5%;
+   right: 0.5%;
+
+}
+ /* 3 column layout */
+.col1of3 {
+   position: relative;
+   float: left;
+   left: 0.5%;
+   width: 33%;
+
+}
+.col2of3 {
+   position: relative;
+   float: left;
+   left: 0.5%;
+   width: 33%;
+}
+.col3of3 {
+   position: relative;
+   float: right;
+   right: 0.5%;
+   width: 33%;
+}
+ /* footer */
+#faa-footer {
+   margin: 0px;
+   clear:both;
+   overflow:hidden;
+   min-width:768px;
+   }
+
+   #faa-footer p.links {
+	font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+	font-size:0.9em;
+	color:#808080;
+	text-align:left;
+	margin-top:0px ;
+	margin-left: 28px;
+	padding-top: 8px;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	}
+
+	#faa-footer p.links a {
+	color:#808080;
+	text-decoration:none;
+	font-style:normal;
+		}
+	#faa-footer p.links a:hover {
+	color:#A9A9A9;
+		}
+
+	#faa-footer img.imark {
+	float: left; margin: 4px 4px; padding: 0;
+		}
+
+.footer-links {
+	background-color: #CCC;
+	height: 30px
+	}
+
+ /* lesson */
+
+#faa-lesson {
+   width: 100%;
+   float: left;
+   margin: 10px auto 15px;
+   position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+   clear:both;
+   overflow:hidden;		/* This chops off any overhanging divs */
+   }
+   #faa-lesson h3 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", 	sans-serif;
+	font-size: 1.4em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 15px;
+	margin-left:0.6em;
+	margin-bottom: 10px;
+	padding:0.2em 0.5em 0.5em 0;
+		}
+		#faa-lesson h3:before {
+		content:"\00bb";
+		font-size:2.5em;
+		margin-right:0.1em;
+		font-family:georgia,serif;
+		color:#aaa;
+		line-height:0;}/* From Tripoli  */
+	#faa-lesson h4 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", 	sans-serif;
+	font-size: 1.2em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0 11px;
+	clear:both;
+		}
+	#faa-lesson h5 {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", 	sans-serif;
+	font-size: 1em;
+	font-weight:bold;
+	letter-spacing: 0.15em;
+	line-height: 1.3em;
+	text-align: left;
+	color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0 11px;
+		}
+	#faa-lesson p {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", 	sans-serif;
+	font-size: 1em;
+	color:#333;
+	line-height: 1.3em;
+	margin-left: 0;
+	text-align:justify;
+	padding: 0 11px 0.4125em 11px;
+		}
+	#faa-lesson p.credit {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", 	sans-serif;
+	font-size: 0.8em;
+	color:#333;
+	line-height: 1.3em;
+	margin-left: 0;
+	text-align:justify;
+	padding: 0 11px 0.6125em 11px;
+		}
+	#faa-lesson p.caption {
+	font-size: 0.8em;
+	color:#333;
+	line-height: 1.3em;
+	margin: 1.66em 0 3em;
+	text-align:center;
+		}
+	#faa-lesson li {
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+ 	font-size: 1em;
+	color:#000;
+	line-height: 1.3em;
+	max-width: 95%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+		}
+	#faa-lesson li li {font-size: 1em; margin-left:-35px;} /*Fixes font-size issues with 2g*/
+	#faa-lesson ul {list-style-position:outside; clear:both;
+		}
+	#faa-lesson ul, ol { margin: 0 0 1.625em 0;
+		}
+	#faa-lesson li ul, li ol  { margin:0 1.625em;
+		}
+	#faa-lesson a { color:rgb(18, 143, 168); text-decoration:none; }
+	#faa-lesson a:hover { text-decoration: underline; }
+
+	#faa-lesson hr  {
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 100%;
+		}
+	#faa-lesson em, dfn {
+	font-style: italic;
+		}
+	#faa-lesson dfn {
+	font-weight: bold;
+		}
+	#faa-lesson img {
+	max-width: 90%;
+	height: auto;
+	width: auto;
+	display: block;
+	margin: 3em auto 0.25em;
+		}
+	#faa-lesson blockquote {
+	padding:1em 1em 1.625em 1em;
+	font-family:georgia,serif;
+	font-style: italic;  }
+		#faa-lesson blockquote:before {
+		content:"\201C";
+		font-size:3em;
+		margin-left:-.625em;
+		font-family:georgia,serif;
+		color:#aaa;
+		line-height:0;}/* From Tripoli  */
+		#faa-lesson blockquote > p {padding:0; margin:0; }
+
+	#faa-lesson table {
+	margin: 1em 0 1.625em 0;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-collapse: separate;
+	border-spacing: 0;
+	font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+	cellspacing: 0;
+		}
+		#faa-lesson table.center {
+		width: 70%;
+		margin-left:14.5%;
+    	margin-right:14.5%;
+			}
+		#faa-lesson th {
+		font-weight:bold;
+		background-color: rgba(0, 0, 0, 0.1);
+		letter-spacing: .1em;
+		padding: 0.6em 1.5em 0.6em 1em;
+			}
+		#faa-lesson td {
+		padding: 0.6em 1.5em 0.6em 1em;
+		vertical-align: middle;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+			}
+		#faa-lesson tr {
+		padding: 0.6em 1.5em 0.6em 1em;
+		vertical-align: middle;
+		border: 0.8px solid rgba(0, 0, 0, 0.1);
+			}
+		#faa-lesson caption {
+		margin: 0 0 0.625em 0;
+		text-align:center;
+		font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+		font-size: 0.8em;
+		color:#333;  }
+#faa-sum {
+		width: 100%;
+   		float: right;
+		margin: 15px auto 15px;
+		padding: 5px;
+		border-top: 2px solid #8C9198;
+		border-bottom: 1px solid #E8EAE9;
+		background-color: rgba(0, 0, 0, 0.06);
+		position:relative;	/* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+   		overflow:hidden;		/* This chops off any overhanging divs */
+			}
+		#faa-sum h3 {
+		font-size: 1.2em;
+		padding: 0 5px 0 5px;
+			}
+		#faa-sum h4 {
+		font-size: 1.1em;
+		text-transform:uppercase;
+		padding: 0 5px 0 5px;
+			}
+		#faa-sum p {
+		padding: 0 5px 0 5px;
+			}
+		#faa-sum ul {
+			list-style: square outside none;
+			clear:both;
+			}
+		#faa-sum li {
+		line-height: 1.2em;
+		max-width: 95%;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		}
