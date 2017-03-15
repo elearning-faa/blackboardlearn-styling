@@ -1,0 +1,23 @@
+<p></p>
+<!-- Banner start -->
+<div class="wrapper"><!-- Department Box start -->
+<div id="navybox">
+<p>[Course Type, Number, and Title]</p>
+</div>
+<!-- Department Box end --><!-- Banner body start -->
+<div id="faa-banner">
+<div class="banner-links"><img alt="Illinois logo" src="https://it.faa.illinois.edu/education/images/i_mark.png" class="imark" height="22" width="18" />
+<p class="links"><a target="_blank" href="http://illinois.edu">University of Illinois</a> | <a target="_blank" href="http://faa.illinois.edu/">College of Fine + Applied Arts</a></p>
+</div>
+<div class="banner-main-white"><img alt="Course Banner" src="https://it.faa.illinois.edu/education/banners/rockband-banner-3.jpg" class="banner" height="150" width="700" /></div>
+<div class="banner-white"></div>
+<!-- Banner Body end --> <!-- Overview start -->
+<div id="faa-overview">
+<div class="colmain">
+<h3>[Lesson Title]</h3>
+<p>[Lesson Intro/Description]</p>
+<p class="credit"></p>
+</div>
+</div>
+</div>
+</div>
